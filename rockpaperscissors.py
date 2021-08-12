@@ -20,7 +20,7 @@ while repeat:
         if playerChoice not in options:
             print("Please choose either Rock, Paper or Scissors\n")
 
-    #Generate computer response
+    #Generate computer response with randint
     compChoice = options[randint(0,2)]
 
     #Find out who wins
